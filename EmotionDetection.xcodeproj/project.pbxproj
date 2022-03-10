@@ -12,6 +12,9 @@
 		5572398B27DAA438006C29F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5572398A27DAA438006C29F1 /* ViewController.swift */; };
 		5572399027DAA43B006C29F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5572398F27DAA43B006C29F1 /* Assets.xcassets */; };
 		5572399327DAA43B006C29F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5572399127DAA43B006C29F1 /* LaunchScreen.storyboard */; };
+		557239AE27DAB5B0006C29F1 /* intiial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557239AD27DAB5B0006C29F1 /* intiial.swift */; };
+		557239B127DAB5C4006C29F1 /* initial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557239B027DAB5C4006C29F1 /* initial.swift */; };
+		557239B427DAB5D8006C29F1 /* initialManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557239B327DAB5D8006C29F1 /* initialManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		5572398F27DAA43B006C29F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5572399227DAA43B006C29F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5572399427DAA43B006C29F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		557239AD27DAB5B0006C29F1 /* intiial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intiial.swift; sourceTree = "<group>"; };
+		557239B027DAB5C4006C29F1 /* initial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initial.swift; sourceTree = "<group>"; };
+		557239B327DAB5D8006C29F1 /* initialManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initialManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +44,7 @@
 		5572397A27DAA438006C29F1 = {
 			isa = PBXGroup;
 			children = (
-				5572398527DAA438006C29F1 /* GradProject */,
+				5572398527DAA438006C29F1 /* EmotionDetection */,
 				5572398427DAA438006C29F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,18 +57,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5572398527DAA438006C29F1 /* GradProject */ = {
+		5572398527DAA438006C29F1 /* EmotionDetection */ = {
 			isa = PBXGroup;
 			children = (
+				5572399427DAA43B006C29F1 /* Info.plist */,
 				5572399C27DAB1A6006C29F1 /* Resources */,
 				5572399F27DAB1C4006C29F1 /* Models */,
 				557239A027DAB1CF006C29F1 /* Views */,
 				5572399E27DAB1B7006C29F1 /* Presenters */,
 				557239A127DAB1E0006C29F1 /* Controllers */,
 				557239A227DAB1EE006C29F1 /* Managers */,
-				5572399427DAA43B006C29F1 /* Info.plist */,
 			);
-			path = GradProject;
+			path = EmotionDetection;
 			sourceTree = "<group>";
 		};
 		5572399C27DAB1A6006C29F1 /* Resources */ = {
@@ -78,6 +84,7 @@
 		5572399E27DAB1B7006C29F1 /* Presenters */ = {
 			isa = PBXGroup;
 			children = (
+				557239AD27DAB5B0006C29F1 /* intiial.swift */,
 			);
 			path = Presenters;
 			sourceTree = "<group>";
@@ -85,6 +92,7 @@
 		5572399F27DAB1C4006C29F1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				557239B027DAB5C4006C29F1 /* initial.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -108,6 +116,7 @@
 		557239A227DAB1EE006C29F1 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				557239B327DAB5D8006C29F1 /* initialManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -189,8 +198,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				557239B427DAB5D8006C29F1 /* initialManager.swift in Sources */,
 				5572398B27DAA438006C29F1 /* ViewController.swift in Sources */,
+				557239B127DAB5C4006C29F1 /* initial.swift in Sources */,
 				5572398727DAA438006C29F1 /* AppDelegate.swift in Sources */,
+				557239AE27DAB5B0006C29F1 /* intiial.swift in Sources */,
 				5572398927DAA438006C29F1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,7 +344,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TCD4XHJF85;
-				INFOPLIST_FILE = GradProject/Info.plist;
+				INFOPLIST_FILE = EmotionDetection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -351,7 +363,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TCD4XHJF85;
-				INFOPLIST_FILE = GradProject/Info.plist;
+				INFOPLIST_FILE = EmotionDetection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
